@@ -13,3 +13,28 @@
 
 
 
+/* Mobile View */
+
+@media screen and (max-width: 481px){
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row .col{
+        min-width: 80%;
+    }
+
+    .why-us{
+        background-color: #222222;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+
+    .site-header{
+        max-width: 100%;
+    }
+}
